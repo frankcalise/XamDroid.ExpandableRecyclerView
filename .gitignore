@@ -1,43 +1,41 @@
-# Windows image file caches
+#Autosave files
+*~
+
+#build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+.nuget/
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+#Mac bundle stuff
+*.dmg
+*.app
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#resharper
+*_Resharper.*
+*.Resharper
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#dotCover
+*.dotCover

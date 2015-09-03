@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDroid.ExpandableRecyclerView.Sample", "XamDroid.ExpandableRecyclerView.Sample.csproj", "{AFE5FC90-4BBE-4D7C-BD19-9476A760A0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDroid.ExpandableRecyclerView.Sample.UITests", "XamDroid.ExpandableRecyclerView.Sample.UITests\XamDroid.ExpandableRecyclerView.Sample.UITests.csproj", "{311123DB-EA57-46DC-B86B-A0889C4214AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDroid.ExpandableRecyclerView", "..\..\Library\XamDroid.ExpandableRecyclerView\XamDroid.ExpandableRecyclerView.csproj", "{402037B7-4C00-4B95-8A54-7338FAD7061D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311123DB-EA57-46DC-B86B-A0889C4214AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311123DB-EA57-46DC-B86B-A0889C4214AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311123DB-EA57-46DC-B86B-A0889C4214AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311123DB-EA57-46DC-B86B-A0889C4214AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402037B7-4C00-4B95-8A54-7338FAD7061D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402037B7-4C00-4B95-8A54-7338FAD7061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402037B7-4C00-4B95-8A54-7338FAD7061D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402037B7-4C00-4B95-8A54-7338FAD7061D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE5FC90-4BBE-4D7C-BD19-9476A760A0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE5FC90-4BBE-4D7C-BD19-9476A760A0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE5FC90-4BBE-4D7C-BD19-9476A760A0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE5FC90-4BBE-4D7C-BD19-9476A760A0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
