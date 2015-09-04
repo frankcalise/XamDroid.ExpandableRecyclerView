@@ -59,9 +59,7 @@
     <Compile Include="Crime.cs" />
     <Compile Include="CrimeChild.cs" />
     <Compile Include="CrimeLab.cs" />
-    <Compile Include="CrimeActivity.cs" />
     <Compile Include="SingleFragmentActivity.cs" />
-    <Compile Include="CrimeFragment.cs" />
     <Compile Include="CrimeListActivity.cs" />
     <Compile Include="CrimeListFragment.cs" />
   </ItemGroup>
@@ -82,7 +80,6 @@
     <AndroidResource Include="Resources\layout\ListItemCrimeChild.axml" />
     <AndroidResource Include="Resources\layout\ListItemCrimeParent.axml" />
     <AndroidResource Include="Resources\layout\ActivityFragment.axml" />
-    <AndroidResource Include="Resources\layout\FragmentCrime.axml" />
     <AndroidResource Include="Resources\layout\FragmentCrimeList.axml" />
     <AndroidResource Include="Resources\values\Dimens.xml" />
     <AndroidResource Include="Resources\menu\Crime.xml" />
