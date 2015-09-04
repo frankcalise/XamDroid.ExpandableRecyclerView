@@ -6,6 +6,7 @@ using Android.Content;
 using Android.Support.V7.Widget;
 
 using XamDroid.ExpandableRecyclerView;
+using Android.Widget;
 
 namespace XamDroid.ExpandableRecyclerView.Sample
 {
@@ -43,6 +44,11 @@ namespace XamDroid.ExpandableRecyclerView.Sample
             var crimeChild = (CrimeChild)childObject;
             childViewHolder._crimeDateText.Text = crimeChild.Date.ToString();
             childViewHolder._crimeSolvedCheckBox.Checked = crimeChild.Solved;
+
+            childViewHolder._crimeSolvedCheckBox.CheckedChange += (object sender, CompoundButton.CheckedChangeEventArgs e) =>
+            {
+                Console.WriteLine("Child CheckedChanged Position: {0}", position);
+            };
         }
 
         #endregion
